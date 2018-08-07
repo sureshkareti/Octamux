@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AS1" Class="RamsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=AS1;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AS1ConnectionString" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.Rams" Member="Rams">
-    <Type Name="Ram">
-      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="Name" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
-    </Type>
-  </Table>
-</Database>
