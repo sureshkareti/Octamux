@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="10b2fdcfd8aa4e0a98eda32786912b43" Name="Diagram1">
+        <EntityTypeShape EntityType="dataquotumModel.Add" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.AgriculturalVehicle" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.ConstructionVehicle" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.Log" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.PassengerVehicle" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.RealEstate" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.TransportationVehicle" Width="1.5" PointX="5.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataquotumModel.User" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="dataquotumModel.FK_Adds_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="dataquotumModel.FK_AgriculturalVehicle_Adds" ManuallyRouted="false" />
+        <AssociationConnector Association="dataquotumModel.FK_ConstructionVehicle_Adds" ManuallyRouted="false" />
+        <AssociationConnector Association="dataquotumModel.FK_PassengerVehicle_Adds" ManuallyRouted="false" />
+        <AssociationConnector Association="dataquotumModel.FK_RealEstate_Adds" ManuallyRouted="false" />
+        <AssociationConnector Association="dataquotumModel.FK_TransportationVehicle_Adds" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
