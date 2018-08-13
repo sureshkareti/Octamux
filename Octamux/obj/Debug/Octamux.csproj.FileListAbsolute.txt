@@ -31,3 +31,36 @@ c:\users\mahesh143\documents\visual studio 2015\Projects\Octamux\bin\Microsoft.C
 c:\users\mahesh143\documents\visual studio 2015\Projects\Octamux\obj\Debug\Octamux.csprojResolveAssemblyReference.cache
 c:\users\mahesh143\documents\visual studio 2015\Projects\Octamux\obj\Debug\Octamux.dll
 c:\users\mahesh143\documents\visual studio 2015\Projects\Octamux\obj\Debug\Octamux.pdb
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\csc.exe
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\vbc.exe
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\VBCSCompiler.exe
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\ApplicationInsights.config
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Octamux.dll.config
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Octamux.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Octamux.pdb
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.Web.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.ApplicationInsights.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.Web.xml
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.ApplicationInsights.xml
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\obj\Debug\Octamux.csprojResolveAssemblyReference.cache
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\obj\Debug\Octamux.dll
+C:\Users\suresh.k\Source\Repos\Octamux\Octamux\obj\Debug\Octamux.pdb
