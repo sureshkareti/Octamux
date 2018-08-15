@@ -148,23 +148,14 @@
     <Content Include="personal\img\preview.png" />
     <Content Include="personal\img\user.png" />
     <Content Include="personal\index.html" />
-    <Content Include="personal\js\easing.min.js" />
-    <Content Include="personal\js\hoverIntent.js" />
     <Content Include="personal\js\isotope.pkgd.min.js" />
-    <Content Include="personal\js\jquery.ajaxchimp.min.js" />
-    <Content Include="personal\js\jquery.counterup.min.js" />
     <Content Include="personal\js\jquery.magnific-popup.min.js" />
-    <Content Include="personal\js\jquery.nice-select.min.js" />
-    <Content Include="personal\js\jquery.tabs.min.js" />
-    <Content Include="personal\js\mail-script.js" />
     <Content Include="personal\js\main.js" />
     <Content Include="personal\js\owl.carousel.min.js" />
-    <Content Include="personal\js\popper.min.js" />
     <Content Include="personal\js\simple-skillbar.js" />
     <Content Include="personal\js\superfish.min.js" />
     <Content Include="personal\js\vendor\bootstrap.min.js" />
     <Content Include="personal\js\vendor\jquery-2.2.4.min.js" />
-    <Content Include="personal\js\waypoints.min.js" />
     <Content Include="personal\services.html" />
     <Content Include="Web.config" />
   </ItemGroup>
