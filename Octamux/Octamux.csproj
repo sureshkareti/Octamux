@@ -43,6 +43,34 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -67,6 +95,137 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="personal\.DS_Store" />
+    <Content Include="personal\css\.DS_Store" />
+    <Content Include="personal\css\bootstrap.map" />
+    <Content Include="personal\css\main.map" />
+    <Content Include="personal\fonts\fontawesome-webfont.eot" />
+    <Content Include="personal\fonts\fontawesome-webfont.ttf" />
+    <Content Include="personal\fonts\fontawesome-webfont.woff" />
+    <Content Include="personal\fonts\fontawesome-webfont.woff2" />
+    <Content Include="personal\fonts\FontAwesome.otf" />
+    <Content Include="personal\fonts\Linearicons-Free.eot" />
+    <Content Include="personal\fonts\Linearicons-Free.ttf" />
+    <Content Include="personal\fonts\Linearicons-Free.woff" />
+    <Content Include="personal\fonts\Linearicons-Free.woff2" />
+    <Content Include="personal\img\.DS_Store" />
+    <Content Include="personal\img\blog\.DS_Store" />
+    <Content Include="personal\img\elements\.DS_Store" />
+    <Content Include="personal\js\.DS_Store" />
+    <Content Include="personal\mail.php" />
+    <Content Include="personal\Personal - Doc\.DS_Store" />
+    <Content Include="personal\Personal - Doc\css\.DS_Store" />
+    <Content Include="personal\Personal - Doc\fonts\.DS_Store" />
+    <Content Include="personal\Personal - Doc\fonts\fontawesome-webfont.eot" />
+    <Content Include="personal\Personal - Doc\fonts\fontawesome-webfont.ttf" />
+    <Content Include="personal\Personal - Doc\fonts\fontawesome-webfont.woff" />
+    <Content Include="personal\Personal - Doc\fonts\FontAwesome.otf" />
+    <Content Include="personal\Personal - Doc\img\.DS_Store" />
+    <Content Include="personal\Personal - Doc\js\.DS_Store" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\.DS_Store" />
+    <Content Include="personal\scss\.DS_Store" />
+    <Content Include="personal\scss\bootstrap.scss" />
+    <Content Include="personal\scss\bootstrap\.DS_Store" />
+    <Content Include="personal\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="personal\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="personal\scss\bootstrap\bootstrap.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_navbar-align.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="personal\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="personal\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="personal\scss\bootstrap\_alert.scss" />
+    <Content Include="personal\scss\bootstrap\_badge.scss" />
+    <Content Include="personal\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="personal\scss\bootstrap\_button-group.scss" />
+    <Content Include="personal\scss\bootstrap\_buttons.scss" />
+    <Content Include="personal\scss\bootstrap\_card.scss" />
+    <Content Include="personal\scss\bootstrap\_carousel.scss" />
+    <Content Include="personal\scss\bootstrap\_close.scss" />
+    <Content Include="personal\scss\bootstrap\_code.scss" />
+    <Content Include="personal\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="personal\scss\bootstrap\_dropdown.scss" />
+    <Content Include="personal\scss\bootstrap\_forms.scss" />
+    <Content Include="personal\scss\bootstrap\_functions.scss" />
+    <Content Include="personal\scss\bootstrap\_grid.scss" />
+    <Content Include="personal\scss\bootstrap\_images.scss" />
+    <Content Include="personal\scss\bootstrap\_input-group.scss" />
+    <Content Include="personal\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="personal\scss\bootstrap\_list-group.scss" />
+    <Content Include="personal\scss\bootstrap\_media.scss" />
+    <Content Include="personal\scss\bootstrap\_mixins.scss" />
+    <Content Include="personal\scss\bootstrap\_modal.scss" />
+    <Content Include="personal\scss\bootstrap\_nav.scss" />
+    <Content Include="personal\scss\bootstrap\_navbar.scss" />
+    <Content Include="personal\scss\bootstrap\_pagination.scss" />
+    <Content Include="personal\scss\bootstrap\_popover.scss" />
+    <Content Include="personal\scss\bootstrap\_print.scss" />
+    <Content Include="personal\scss\bootstrap\_progress.scss" />
+    <Content Include="personal\scss\bootstrap\_reboot.scss" />
+    <Content Include="personal\scss\bootstrap\_root.scss" />
+    <Content Include="personal\scss\bootstrap\_tables.scss" />
+    <Content Include="personal\scss\bootstrap\_tooltip.scss" />
+    <Content Include="personal\scss\bootstrap\_transitions.scss" />
+    <Content Include="personal\scss\bootstrap\_type.scss" />
+    <Content Include="personal\scss\bootstrap\_utilities.scss" />
+    <Content Include="personal\scss\bootstrap\_variables.scss" />
+    <Content Include="personal\scss\main.scss" />
+    <Content Include="personal\scss\theme\.DS_Store" />
+    <Content Include="personal\scss\theme\_about.scss" />
+    <Content Include="personal\scss\theme\_blog.scss" />
+    <Content Include="personal\scss\theme\_contact.scss" />
+    <Content Include="personal\scss\theme\_elements.scss" />
+    <Content Include="personal\scss\theme\_flexbox.scss" />
+    <Content Include="personal\scss\theme\_footer.scss" />
+    <Content Include="personal\scss\theme\_header.scss" />
+    <Content Include="personal\scss\theme\_home.scss" />
+    <Content Include="personal\scss\theme\_mixins.scss" />
+    <Content Include="personal\scss\theme\_price.scss" />
+    <Content Include="personal\scss\theme\_reset.scss" />
+    <Content Include="personal\scss\theme\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -76,6 +235,174 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="personal\about.html" />
+    <Content Include="personal\blog-home.html" />
+    <Content Include="personal\blog-single.html" />
+    <Content Include="personal\contact.html" />
+    <Content Include="personal\css\animate.min.css" />
+    <Content Include="personal\css\bootstrap.css" />
+    <Content Include="personal\css\bootstrap\bootstrap-grid.css" />
+    <Content Include="personal\css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="personal\css\bootstrap\bootstrap.css" />
+    <Content Include="personal\css\font-awesome.min.css" />
+    <Content Include="personal\css\linearicons.css" />
+    <Content Include="personal\css\magnific-popup.css" />
+    <Content Include="personal\css\main.css" />
+    <Content Include="personal\css\nice-select.css" />
+    <Content Include="personal\css\owl.carousel.css" />
+    <Content Include="personal\elements.html" />
+    <Content Include="personal\fonts\fontawesome-webfont.svg" />
+    <Content Include="personal\fonts\Linearicons-Free.svg" />
+    <Content Include="personal\img\about-img.png" />
+    <Content Include="personal\img\about\c-logo.png" />
+    <Content Include="personal\img\b1.jpg" />
+    <Content Include="personal\img\b2.jpg" />
+    <Content Include="personal\img\b3.jpg" />
+    <Content Include="personal\img\blog\ads-banner.jpg" />
+    <Content Include="personal\img\blog\blog-home-banner.jpg" />
+    <Content Include="personal\img\blog\c1.jpg" />
+    <Content Include="personal\img\blog\c2.jpg" />
+    <Content Include="personal\img\blog\c3.jpg" />
+    <Content Include="personal\img\blog\c4.jpg" />
+    <Content Include="personal\img\blog\c5.jpg" />
+    <Content Include="personal\img\blog\c6.jpg" />
+    <Content Include="personal\img\blog\cat-widget1.jpg" />
+    <Content Include="personal\img\blog\cat-widget2.jpg" />
+    <Content Include="personal\img\blog\cat-widget3.jpg" />
+    <Content Include="personal\img\blog\feature-img1.jpg" />
+    <Content Include="personal\img\blog\feature-img2.jpg" />
+    <Content Include="personal\img\blog\feature-img3.jpg" />
+    <Content Include="personal\img\blog\feature-img4.jpg" />
+    <Content Include="personal\img\blog\feature-img5.jpg" />
+    <Content Include="personal\img\blog\next.jpg" />
+    <Content Include="personal\img\blog\post-img1.jpg" />
+    <Content Include="personal\img\blog\post-img2.jpg" />
+    <Content Include="personal\img\blog\pp1.jpg" />
+    <Content Include="personal\img\blog\pp2.jpg" />
+    <Content Include="personal\img\blog\pp3.jpg" />
+    <Content Include="personal\img\blog\pp4.jpg" />
+    <Content Include="personal\img\blog\prev.jpg" />
+    <Content Include="personal\img\blog\s-img.jpg" />
+    <Content Include="personal\img\blog\user-info.png" />
+    <Content Include="personal\img\elements\a.jpg" />
+    <Content Include="personal\img\elements\a2.jpg" />
+    <Content Include="personal\img\elements\d.jpg" />
+    <Content Include="personal\img\elements\disabled-check.png" />
+    <Content Include="personal\img\elements\disabled-radio.png" />
+    <Content Include="personal\img\elements\f1.jpg" />
+    <Content Include="personal\img\elements\f2.jpg" />
+    <Content Include="personal\img\elements\f3.jpg" />
+    <Content Include="personal\img\elements\f4.jpg" />
+    <Content Include="personal\img\elements\f5.jpg" />
+    <Content Include="personal\img\elements\f6.jpg" />
+    <Content Include="personal\img\elements\f7.jpg" />
+    <Content Include="personal\img\elements\f8.jpg" />
+    <Content Include="personal\img\elements\g1.jpg" />
+    <Content Include="personal\img\elements\g2.jpg" />
+    <Content Include="personal\img\elements\g3.jpg" />
+    <Content Include="personal\img\elements\g4.jpg" />
+    <Content Include="personal\img\elements\g5.jpg" />
+    <Content Include="personal\img\elements\g6.jpg" />
+    <Content Include="personal\img\elements\g7.jpg" />
+    <Content Include="personal\img\elements\g8.jpg" />
+    <Content Include="personal\img\elements\primary-check.png" />
+    <Content Include="personal\img\elements\primary-radio.png" />
+    <Content Include="personal\img\elements\success-check.png" />
+    <Content Include="personal\img\elements\success-radio.png" />
+    <Content Include="personal\img\elements\user1.png" />
+    <Content Include="personal\img\elements\user2.png" />
+    <Content Include="personal\img\hero-img.png" />
+    <Content Include="personal\img\l1.png" />
+    <Content Include="personal\img\l2.png" />
+    <Content Include="personal\img\l3.png" />
+    <Content Include="personal\img\l4.png" />
+    <Content Include="personal\img\l5.png" />
+    <Content Include="personal\img\logo.png" />
+    <Content Include="personal\img\p1.jpg" />
+    <Content Include="personal\img\p2.jpg" />
+    <Content Include="personal\img\p3.jpg" />
+    <Content Include="personal\img\p4.jpg" />
+    <Content Include="personal\img\p5.jpg" />
+    <Content Include="personal\img\p6.jpg" />
+    <Content Include="personal\img\preview.png" />
+    <Content Include="personal\img\user.png" />
+    <Content Include="personal\index.html" />
+    <Content Include="personal\js\easing.min.js" />
+    <Content Include="personal\js\hoverIntent.js" />
+    <Content Include="personal\js\isotope.pkgd.min.js" />
+    <Content Include="personal\js\jquery.ajaxchimp.min.js" />
+    <Content Include="personal\js\jquery.counterup.min.js" />
+    <Content Include="personal\js\jquery.magnific-popup.min.js" />
+    <Content Include="personal\js\jquery.nice-select.min.js" />
+    <Content Include="personal\js\jquery.tabs.min.js" />
+    <Content Include="personal\js\mail-script.js" />
+    <Content Include="personal\js\main.js" />
+    <Content Include="personal\js\owl.carousel.min.js" />
+    <Content Include="personal\js\popper.min.js" />
+    <Content Include="personal\js\simple-skillbar.js" />
+    <Content Include="personal\js\superfish.min.js" />
+    <Content Include="personal\js\vendor\bootstrap.min.js" />
+    <Content Include="personal\js\vendor\jquery-2.2.4.min.js" />
+    <Content Include="personal\js\waypoints.min.js" />
+    <Content Include="personal\Personal - Doc\css\font-awesome.min.css" />
+    <Content Include="personal\Personal - Doc\css\main.css" />
+    <Content Include="personal\Personal - Doc\css\normalize.min.css" />
+    <Content Include="personal\Personal - Doc\fonts\fontawesome-webfont.svg" />
+    <Content Include="personal\Personal - Doc\img\logo.png" />
+    <Content Include="personal\Personal - Doc\index.html" />
+    <Content Include="personal\Personal - Doc\js\custom.js" />
+    <Content Include="personal\Personal - Doc\js\jquery-1.11.0.min.js" />
+    <Content Include="personal\Personal - Doc\js\jquery.nav.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shAutoloader.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushAppleScript.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushAS3.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushBash.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushColdFusion.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushCpp.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushCSharp.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushCss.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushDelphi.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushDiff.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushErlang.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushGroovy.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushJava.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushJavaFX.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushJScript.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushPerl.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushPhp.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushPlain.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushPowerShell.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushPython.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushRuby.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushSass.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushScala.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushSql.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushVb.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shBrushXml.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shCore.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\scripts\shLegacy.js" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCore.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreDefault.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreDjango.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreEclipse.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreEmacs.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreFadeToGrey.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreMDUltra.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreMidnight.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shCoreRDark.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeDefault.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeDjango.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeEclipse.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeEmacs.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeFadeToGrey.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeMDUltra.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeMidnight.css" />
+    <Content Include="personal\Personal - Doc\syntax-highlighter\styles\shThemeRDark.css" />
+    <Content Include="personal\portfolio.html" />
+    <Content Include="personal\price.html" />
+    <Content Include="personal\services.html" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
