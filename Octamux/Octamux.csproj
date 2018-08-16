@@ -139,6 +139,9 @@
     <Content Include="personal\img\l4.png" />
     <Content Include="personal\img\l5.png" />
     <Content Include="personal\img\logo.png" />
+    <Content Include="personal\img\logo\OM_icon.png" />
+    <Content Include="personal\img\logo\OM_logo.png" />
+    <Content Include="personal\img\logo\OM_logo1.png" />
     <Content Include="personal\img\p1.jpg" />
     <Content Include="personal\img\p2.jpg" />
     <Content Include="personal\img\p3.jpg" />
