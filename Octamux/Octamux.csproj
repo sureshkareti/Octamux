@@ -132,6 +132,8 @@
     <Content Include="personal\fonts\Linearicons-Free.svg" />
     <Content Include="personal\img\about-img.png" />
     <Content Include="personal\img\about\c-logo.png" />
+    <Content Include="personal\img\ClientLogos\All8bitMcu.PNG" />
+    <Content Include="personal\img\ClientLogos\Classigoo_Logox50.png" />
     <Content Include="personal\img\hero-img.png" />
     <Content Include="personal\img\l1.png" />
     <Content Include="personal\img\l2.png" />
