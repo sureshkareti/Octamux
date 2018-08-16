@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FA52D31C-CA13-45B3-89E2-DFFE392E475A}</ProjectGuid>
+    <ProjectGuid>{3B28F278-A763-41D1-B587-F91A0DAEC5D5}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -94,29 +94,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HtmlPage1.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include=".DS_Store" />
-    <Content Include="mail.php" />
-    <Content Include="css\.DS_Store" />
-    <Content Include="css\bootstrap.map" />
-    <Content Include="css\main.map" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="fonts\Linearicons-Free.eot" />
-    <Content Include="fonts\Linearicons-Free.ttf" />
-    <Content Include="fonts\Linearicons-Free.woff" />
-    <Content Include="fonts\Linearicons-Free.woff2" />
-    <Content Include="img\.DS_Store" />
-    <Content Include="img\blog\.DS_Store" />
-    <Content Include="img\elements\.DS_Store" />
-    <Content Include="js\.DS_Store" />
+    <Content Include="personal\css\bootstrap.map" />
+    <Content Include="personal\fonts\fontawesome-webfont.eot" />
+    <Content Include="personal\fonts\fontawesome-webfont.ttf" />
+    <Content Include="personal\fonts\fontawesome-webfont.woff" />
+    <Content Include="personal\fonts\fontawesome-webfont.woff2" />
+    <Content Include="personal\fonts\FontAwesome.otf" />
+    <Content Include="personal\fonts\Linearicons-Free.eot" />
+    <Content Include="personal\fonts\Linearicons-Free.ttf" />
+    <Content Include="personal\fonts\Linearicons-Free.woff" />
+    <Content Include="personal\fonts\Linearicons-Free.woff2" />
+    <Content Include="personal\img\.DS_Store" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,124 +117,57 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="about.html" />
-    <Content Include="blog-home.html" />
-    <Content Include="blog-single.html" />
-    <Content Include="contact.html" />
-    <Content Include="css\animate.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap\bootstrap-grid.css" />
-    <Content Include="css\bootstrap\bootstrap-reboot.css" />
-    <Content Include="css\bootstrap\bootstrap.css" />
-    <Content Include="css\font-awesome.min.css" />
-    <Content Include="css\linearicons.css" />
-    <Content Include="css\magnific-popup.css" />
-    <Content Include="css\main.css" />
-    <Content Include="css\nice-select.css" />
-    <Content Include="css\owl.carousel.css" />
-    <Content Include="elements.html" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="fonts\Linearicons-Free.svg" />
-    <Content Include="img\about-img.png" />
-    <Content Include="img\about\c-logo.png" />
-    <Content Include="img\b1.jpg" />
-    <Content Include="img\b2.jpg" />
-    <Content Include="img\b3.jpg" />
-    <Content Include="img\blog\ads-banner.jpg" />
-    <Content Include="img\blog\blog-home-banner.jpg" />
-    <Content Include="img\blog\c1.jpg" />
-    <Content Include="img\blog\c2.jpg" />
-    <Content Include="img\blog\c3.jpg" />
-    <Content Include="img\blog\c4.jpg" />
-    <Content Include="img\blog\c5.jpg" />
-    <Content Include="img\blog\c6.jpg" />
-    <Content Include="img\blog\cat-widget1.jpg" />
-    <Content Include="img\blog\cat-widget2.jpg" />
-    <Content Include="img\blog\cat-widget3.jpg" />
-    <Content Include="img\blog\feature-img1.jpg" />
-    <Content Include="img\blog\feature-img2.jpg" />
-    <Content Include="img\blog\feature-img3.jpg" />
-    <Content Include="img\blog\feature-img4.jpg" />
-    <Content Include="img\blog\feature-img5.jpg" />
-    <Content Include="img\blog\next.jpg" />
-    <Content Include="img\blog\post-img1.jpg" />
-    <Content Include="img\blog\post-img2.jpg" />
-    <Content Include="img\blog\pp1.jpg" />
-    <Content Include="img\blog\pp2.jpg" />
-    <Content Include="img\blog\pp3.jpg" />
-    <Content Include="img\blog\pp4.jpg" />
-    <Content Include="img\blog\prev.jpg" />
-    <Content Include="img\blog\s-img.jpg" />
-    <Content Include="img\blog\user-info.png" />
-    <Content Include="img\elements\a.jpg" />
-    <Content Include="img\elements\a2.jpg" />
-    <Content Include="img\elements\d.jpg" />
-    <Content Include="img\elements\disabled-check.png" />
-    <Content Include="img\elements\disabled-radio.png" />
-    <Content Include="img\elements\f1.jpg" />
-    <Content Include="img\elements\f2.jpg" />
-    <Content Include="img\elements\f3.jpg" />
-    <Content Include="img\elements\f4.jpg" />
-    <Content Include="img\elements\f5.jpg" />
-    <Content Include="img\elements\f6.jpg" />
-    <Content Include="img\elements\f7.jpg" />
-    <Content Include="img\elements\f8.jpg" />
-    <Content Include="img\elements\g1.jpg" />
-    <Content Include="img\elements\g2.jpg" />
-    <Content Include="img\elements\g3.jpg" />
-    <Content Include="img\elements\g4.jpg" />
-    <Content Include="img\elements\g5.jpg" />
-    <Content Include="img\elements\g6.jpg" />
-    <Content Include="img\elements\g7.jpg" />
-    <Content Include="img\elements\g8.jpg" />
-    <Content Include="img\elements\primary-check.png" />
-    <Content Include="img\elements\primary-radio.png" />
-    <Content Include="img\elements\success-check.png" />
-    <Content Include="img\elements\success-radio.png" />
-    <Content Include="img\elements\user1.png" />
-    <Content Include="img\elements\user2.png" />
-    <Content Include="img\hero-img.png" />
-    <Content Include="img\l1.png" />
-    <Content Include="img\l2.png" />
-    <Content Include="img\l3.png" />
-    <Content Include="img\l4.png" />
-    <Content Include="img\l5.png" />
-    <Content Include="img\logo.png" />
-    <Content Include="img\p1.jpg" />
-    <Content Include="img\p2.jpg" />
-    <Content Include="img\p3.jpg" />
-    <Content Include="img\p4.jpg" />
-    <Content Include="img\p5.jpg" />
-    <Content Include="img\p6.jpg" />
-    <Content Include="img\preview.png" />
-    <Content Include="img\user.png" />
-    <Content Include="index.html" />
-    <Content Include="js\easing.min.js" />
-    <Content Include="js\hoverIntent.js" />
-    <Content Include="js\isotope.pkgd.min.js" />
-    <Content Include="js\jquery.ajaxchimp.min.js" />
-    <Content Include="js\jquery.counterup.min.js" />
-    <Content Include="js\jquery.magnific-popup.min.js" />
-    <Content Include="js\jquery.nice-select.min.js" />
-    <Content Include="js\jquery.tabs.min.js" />
-    <Content Include="js\mail-script.js" />
-    <Content Include="js\main.js" />
-    <Content Include="js\owl.carousel.min.js" />
-    <Content Include="js\popper.min.js" />
-    <Content Include="js\simple-skillbar.js" />
-    <Content Include="js\superfish.min.js" />
-    <Content Include="js\vendor\bootstrap.min.js" />
-    <Content Include="js\vendor\jquery-2.2.4.min.js" />
-    <Content Include="js\waypoints.min.js" />
-    <Content Include="portfolio.html" />
-    <Content Include="price.html" />
-    <Content Include="scripts\ai.0.22.9-build00167.js" />
-    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="services.html" />
+    <Content Include="Global.asax" />
+    <Content Include="personal\about.html" />
+    <Content Include="personal\contact.html" />
+    <Content Include="personal\css\animate.min.css" />
+    <Content Include="personal\css\bootstrap.css" />
+    <Content Include="personal\css\font-awesome.min.css" />
+    <Content Include="personal\css\linearicons.css" />
+    <Content Include="personal\css\magnific-popup.css" />
+    <Content Include="personal\css\main.css" />
+    <Content Include="personal\css\nice-select.css" />
+    <Content Include="personal\css\owl.carousel.css" />
+    <Content Include="personal\fonts\fontawesome-webfont.svg" />
+    <Content Include="personal\fonts\Linearicons-Free.svg" />
+    <Content Include="personal\img\about-img.png" />
+    <Content Include="personal\img\about\c-logo.png" />
+    <Content Include="personal\img\hero-img.png" />
+    <Content Include="personal\img\l1.png" />
+    <Content Include="personal\img\l2.png" />
+    <Content Include="personal\img\l3.png" />
+    <Content Include="personal\img\l4.png" />
+    <Content Include="personal\img\l5.png" />
+    <Content Include="personal\img\logo.png" />
+    <Content Include="personal\img\p1.jpg" />
+    <Content Include="personal\img\p2.jpg" />
+    <Content Include="personal\img\p3.jpg" />
+    <Content Include="personal\img\p4.jpg" />
+    <Content Include="personal\img\p5.jpg" />
+    <Content Include="personal\img\p6.jpg" />
+    <Content Include="personal\img\preview.png" />
+    <Content Include="personal\img\user.png" />
+    <Content Include="personal\index.html" />
+    <Content Include="personal\js\isotope.pkgd.min.js" />
+    <Content Include="personal\js\jquery.magnific-popup.min.js" />
+    <Content Include="personal\js\main.js" />
+    <Content Include="personal\js\owl.carousel.min.js" />
+    <Content Include="personal\js\simple-skillbar.js" />
+    <Content Include="personal\js\superfish.min.js" />
+    <Content Include="personal\js\vendor\bootstrap.min.js" />
+    <Content Include="personal\js\vendor\jquery-2.2.4.min.js" />
+    <Content Include="personal\services.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -257,9 +182,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53141</DevelopmentServerPort>
+          <DevelopmentServerPort>53369</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53141/</IISUrl>
+          <IISUrl>http://localhost:53369/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
